@@ -13,7 +13,7 @@ provider "google" {
 
 # VPC
 resource "google_compute_network" "vpc" {
-  name                    = "${var.project_id}-vpc-devops-pro"
+  name                    = "${var.project_id}-devops-pro"
   auto_create_subnetworks = "false"
 }
 
